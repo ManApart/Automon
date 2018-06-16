@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" source="A:/Programs/Game Design/Map Makers/Tiled/Tiled/examples/desert.tsx"/>
+ <tileset firstgid="49" name="Atlas" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="../../../../../Pictures/Nintendo/AK Games/Resource Downloads/Open Game Art/Tile Sets/terrain_atlas.png" width="1024" height="1024"/>
+  <terraintypes>
+   <terrain name="Sand" tile="385"/>
+   <terrain name="Water" tile="452"/>
+   <terrain name="Grass" tile="424"/>
+  </terraintypes>
+  <tile id="22" terrain="2,2,2,"/>
+  <tile id="23" terrain="2,2,,2"/>
+  <tile id="54" terrain="2,,2,2"/>
+  <tile id="55" terrain=",2,2,2"/>
+  <tile id="85" terrain=",,,2"/>
+  <tile id="86" terrain=",,2,2"/>
+  <tile id="87" terrain=",,2,"/>
+  <tile id="117" terrain=",2,,2"/>
+  <tile id="118" terrain="2,2,2,2"/>
+  <tile id="119" terrain="2,,2,"/>
+  <tile id="149" terrain=",2,,"/>
+  <tile id="150" terrain="2,2,,"/>
+  <tile id="151" terrain="2,,,"/>
+  <tile id="181" terrain="2,2,2,2"/>
+  <tile id="182" terrain="2,2,2,2"/>
+  <tile id="183" terrain="2,2,2,2"/>
+  <tile id="277" terrain=",,,2"/>
+  <tile id="278" terrain=",,2,2"/>
+  <tile id="279" terrain=",,2,"/>
+  <tile id="289" terrain="0,0,0,"/>
+  <tile id="290" terrain="0,0,,0"/>
+  <tile id="292" terrain="0,,,"/>
+  <tile id="293" terrain=",0,,"/>
+  <tile id="309" terrain=",2,,2"/>
+  <tile id="310" terrain="2,2,2,2"/>
+  <tile id="311" terrain="2,,2,"/>
+  <tile id="321" terrain="0,,0,0"/>
+  <tile id="322" terrain=",0,0,0"/>
+  <tile id="324" terrain=",,0,"/>
+  <tile id="325" terrain=",,,0"/>
+  <tile id="341" terrain=",2,,"/>
+  <tile id="342" terrain="2,2,,"/>
+  <tile id="343" terrain="2,,,"/>
+  <tile id="352" terrain=",,,0"/>
+  <tile id="353" terrain=",,0,0"/>
+  <tile id="354" terrain=",,0,"/>
+  <tile id="355" terrain="1,1,1,0"/>
+  <tile id="356" terrain="0,1,0,0"/>
+  <tile id="357" terrain="1,1,0,1"/>
+  <tile id="358" terrain="2,2,2,"/>
+  <tile id="359" terrain="2,2,,"/>
+  <tile id="360" terrain="2,2,,2"/>
+  <tile id="361" terrain=",,,1"/>
+  <tile id="362" terrain=",,1,1"/>
+  <tile id="363" terrain=",,1,"/>
+  <tile id="384" terrain=",0,,0"/>
+  <tile id="385" terrain="0,0,0,0"/>
+  <tile id="386" terrain="0,,0,"/>
+  <tile id="387" terrain="1,0,1,0"/>
+  <tile id="388" terrain="0,0,0,0"/>
+  <tile id="389" terrain="0,1,0,1"/>
+  <tile id="390" terrain="2,1,2,1"/>
+  <tile id="391" terrain="1,1,1,1"/>
+  <tile id="392" terrain=",2,,2"/>
+  <tile id="393" terrain=",1,,1"/>
+  <tile id="394" terrain="1,1,1,1"/>
+  <tile id="395" terrain="1,,1,"/>
+  <tile id="416" terrain=",0,,"/>
+  <tile id="417" terrain="0,0,,"/>
+  <tile id="418" terrain="0,,,"/>
+  <tile id="419" terrain="1,0,1,1"/>
+  <tile id="420" terrain="0,0,1,1"/>
+  <tile id="421" terrain="0,1,1,1"/>
+  <tile id="422" terrain="2,,2,2"/>
+  <tile id="423" terrain=",,2,2"/>
+  <tile id="424" terrain=",2,2,2"/>
+  <tile id="425" terrain=",1,,"/>
+  <tile id="426" terrain="1,1,,"/>
+  <tile id="427" terrain="1,,,"/>
+  <tile id="448" terrain="0,0,0,0"/>
+  <tile id="449" terrain="0,0,0,0"/>
+  <tile id="450" terrain="0,0,0,0"/>
+  <tile id="451" terrain="1,1,1,1"/>
+  <tile id="452" terrain="1,1,1,1"/>
+  <tile id="453" terrain="1,1,1,1"/>
+ </tileset>
+ <layer name="Ground" width="40" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmElOwzAUhh26YKhEGSTKIEohDGVqeyuOwh0oazgClcIa7gDsYYtEWfeP4ijWk+PYTmJc1EqfMshWvv7Pbp7aYYx1amQVtMBazc+xoS/xO/DAa1byi7PaAm2w7YGPjAAsgAbxruNZO2DXgD2wDFZA00EWh+DIgLBGv57C7xhcgJM/9FPlF2rm6cLv1EO/IfGiflcsWf/Xjv3omqPXRXnRdVmFn2wf9Eh+6XmRH821qvzOyHXqY5pf3fWlnpRzXj9dLivwW+QssexdpKKhOS5lv6Rfi2X9RfpdVTQ1x8nm2fi1WdZfrIONAjY1x8nm1bn2ZHwHyfFRuDfBvXFQfi90mbzPsfH8Ap/gCV4/nLJ+qaONj8gDuAkSx9gvyvGz6c1MXca8dr/gOd7E+LyAV3Cbk1mfH3V+O8X3T6jwyCPibhH3uwMjcK9RTx2/2GnIx9r4vQcZH+BNOFfNGzjyGwX5FO0zF35indO1ONHcrzp+Yn9Rxs+EgYEfzdKFn0l+slr77OcyP5vezKXff6HrgcOsQLPy7b/BeY3nzCnHFBxG1sY=
+  </data>
+ </layer>
+</map>
